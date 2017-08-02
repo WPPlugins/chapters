@@ -1,0 +1,415 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: moi <moi@moi.fr>\n"
+"Language-Team: Fabrice SEVERIN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../chapitres.php:80
+msgid "ATTENTION! If you modified your Chapters' styles, please backup styles/chapitres-front.css file before updating."
+msgstr "ATTENTION! Si vous avez modifié les styles de Chapitres, faites une copie du fichier styles/chapitres-front.css avant de mettre à jour."
+
+#: ../classes/chapitres_menu_admin.php:64
+msgid "Chapters"
+msgstr "Chapitres"
+
+#: ../classes/chapitres_menu_admin.php:102
+msgid "Books saved."
+msgstr "Livres sauvegardés."
+
+#: ../classes/chapitres_menu_admin.php:115
+msgid "Book removed."
+msgstr "Livre supprimé."
+
+#: ../classes/chapitres_menu_admin.php:118
+msgid "Stylesheet saved."
+msgstr "Feuille de Styles sauvegardée."
+
+#: ../classes/chapitres_menu_admin.php:124
+msgid "Chapters Settings"
+msgstr "Réglages de l'extension Chapitres"
+
+#: ../classes/chapitres_menu_admin.php:134
+msgid "Select Posts and Pages"
+msgstr "Choix des Articles ou des Pages"
+
+#: ../classes/chapitres_menu_admin.php:135
+msgid "Manage Books"
+msgstr "Gérer les Livres"
+
+#: ../classes/chapitres_menu_admin.php:136
+msgid "Manage Chapters"
+msgstr "Gérer les Chapitres"
+
+#: ../classes/chapitres_menu_admin.php:137
+msgid "Preview Summaries"
+msgstr "Aperçus des Sommaires"
+
+#: ../classes/chapitres_menu_admin.php:160
+msgid "WARNING"
+msgstr "AJOUT IMPOSSIBLE"
+
+#: ../classes/chapitres_menu_admin.php:161
+msgid "A new tab is already waiting to be saved. You must save the Books before adding another."
+msgstr "Un nouvel onglet est déjà en attente: Sauvegardez les Livres avant d'en ajouter encore."
+
+#: ../classes/chapitres_display.php:91
+#: ../classes/chapitres_display.php:117
+msgid "Book Title"
+msgstr "Titre du Livre"
+
+#: ../classes/chapitres_display.php:92
+#: ../classes/chapitres_display.php:121
+msgid "Book Abstract"
+msgstr "Résumé du Livre"
+
+#: ../classes/chapitres_display.php:93
+#: ../classes/chapitres_display.php:125
+msgid "Display this content"
+msgstr "Afficher ces informations"
+
+#: ../classes/chapitres_display.php:94
+msgid "This Book has not been saved yet."
+msgstr "Ce Livre n'a pas encore été sauvegardé."
+
+#: ../classes/chapitres_display.php:95
+msgid "Remove this tab"
+msgstr "Supprimer cet onglet"
+
+#: ../classes/chapitres_display.php:96
+#: ../classes/chapitres_display.php:72
+msgid "Book"
+msgstr "Livre"
+
+#: ../classes/chapitres_display.php:100
+msgid "BOOKS"
+msgstr "LIVRES"
+
+#: ../classes/chapitres_display.php:103
+msgid "Add a Book"
+msgstr "Ajouter un Livre"
+
+#: ../classes/chapitres_display.php:141
+msgid "Delete Book"
+msgstr "Supprimer le Livre"
+
+#: ../classes/chapitres_display.php:150
+msgid "Save Books"
+msgstr "Sauvegarder les Livres"
+
+#: ../classes/chapitres_display.php:163
+msgid "CHAPTERS"
+msgstr "CHAPITRES"
+
+#: ../classes/chapitres_display.php:207
+msgid "None"
+msgstr "Aucun extrait"
+
+#: ../classes/chapitres_display.php:234
+msgid "Click to Toggle"
+msgstr "Cliquer pour inverser."
+
+#: ../classes/chapitres_display.php:242
+#: ../classes/chapitres_display.php:360
+#: ../classes/chapitres_display.php:385
+msgid "SLUG"
+msgstr "JETON"
+
+#: ../classes/chapitres_display.php:243
+msgid "EXCERPT"
+msgstr "EXTRAIT"
+
+#: ../classes/chapitres_display.php:246
+msgid "Remove from this Book"
+msgstr "Enlever de ce Livre"
+
+#: ../classes/chapitres_display.php:260
+msgid "SUMMARIES"
+msgstr "SOMMAIRES"
+
+#: ../classes/chapitres_display.php:280
+msgid "DISPLAY OPTIONS"
+msgstr "OPTIONS D'AFFICHAGE"
+
+#: ../classes/chapitres_display.php:288
+msgid "Display title"
+msgstr "Afficher le titre"
+
+#: ../classes/chapitres_display.php:289
+#: ../classes/chapitres_display.php:298
+#: ../classes/chapitres_display.php:304
+msgid "(default)"
+msgstr "(par défaut)"
+
+#: ../classes/chapitres_display.php:297
+msgid "Display abstract"
+msgstr "Afficher le résumé"
+
+#: ../classes/chapitres_display.php:303
+msgid "Ordered list"
+msgstr "Liste numérotée"
+
+#: ../classes/chapitres_display.php:308
+msgid "Display chapters limit"
+msgstr "Maximum de chapitres affichés"
+
+#: ../classes/chapitres_display.php:311
+msgid "(all if empty)"
+msgstr "(vide = tous)"
+
+#: ../classes/chapitres_display.php:314
+msgid "COPY AND PASTE THIS"
+msgstr "COPIER-COLLER CETTE VALEUR"
+
+#: ../classes/chapitres_display.php:321
+msgid "Book index"
+msgstr "Sommaire du livre"
+
+#: ../classes/chapitres_display.php:321
+msgid "Manage Styles"
+msgstr "Gérer les Styles"
+
+#: ../classes/chapitres_display.php:355
+msgid "available posts and pages"
+msgstr "articles et pages disponibles"
+
+#: ../classes/chapitres_display.php:361
+#: ../classes/chapitres_display.php:384
+msgid "NAME"
+msgstr "NOM"
+
+#: ../classes/chapitres_display.php:395
+#: ../classes/chapitres_display.php:396
+msgid "Add Chapter(s) to Book"
+msgstr "Ajouter Chapitre(s) au Livre"
+
+#: ../classes/chapitres_display.php:405
+msgid "First"
+msgstr "Premiers"
+
+#: ../classes/chapitres_display.php:406
+msgid "Previous"
+msgstr "Précédents"
+
+#: ../classes/chapitres_display.php:408
+msgid "Current"
+msgstr "Courants"
+
+#: ../classes/chapitres_display.php:409
+msgid "on"
+msgstr "sur"
+
+#: ../classes/chapitres_display.php:410
+msgid "Next"
+msgstr "Suivants"
+
+#: ../classes/chapitres_display.php:411
+msgid "Last"
+msgstr "Derniers"
+
+#: ../classes/chapitres_display.php:412
+msgid "by"
+msgstr "par"
+
+#: ../classes/chapitres_display.php:440
+msgid "INDEX"
+msgstr "SOMMAIRE"
+
+#: ../classes/chapitres_display.php:495
+msgid "GLOBAL CONTAINER"
+msgstr "CONTENEUR GLOBAL"
+
+#: ../classes/chapitres_display.php:495
+msgid "HEADER"
+msgstr "ENTETE"
+
+#: ../classes/chapitres_display.php:495
+msgid "TITLE"
+msgstr "TITRE"
+
+#: ../classes/chapitres_display.php:495
+msgid "ABSTRACT"
+msgstr "RESUME"
+
+#: ../classes/chapitres_display.php:496
+msgid "CONTAINER"
+msgstr "CONTENEUR"
+
+#: ../classes/chapitres_display.php:496
+msgid "LIST"
+msgstr "LISTE"
+
+#: ../classes/chapitres_display.php:496
+msgid "ORDERED LIST"
+msgstr "LISTE NUMEROTEE"
+
+#: ../classes/chapitres_display.php:496
+msgid "LINE"
+msgstr "LIGNE"
+
+#: ../classes/chapitres_display.php:497
+msgid "BEFORE LINE"
+msgstr "AVANT LIGNE"
+
+#: ../classes/chapitres_display.php:497
+msgid "LINK"
+msgstr "LIEN"
+
+#: ../classes/chapitres_display.php:497
+msgid "HOVER LINK"
+msgstr "LIEN AU SURVOL"
+
+#: ../classes/chapitres_display.php:497
+msgid "VISITED LINK"
+msgstr "LIEN APRES VISITE"
+
+#: ../classes/chapitres_display.php:499
+msgid "Apply to all"
+msgstr "Appliquer à tous les sommaires"
+
+#: ../classes/chapitres_display.php:500
+msgid "Save"
+msgstr "Enregistrer"
+
+#: ../classes/chapitres_display.php:501
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../classes/chapitres_display.php:537
+msgid "Margin Left"
+msgstr "Marge Extérieure Gauche"
+
+#: ../classes/chapitres_display.php:537
+msgid "Margin Right"
+msgstr "Marge Extérieure Droite"
+
+#: ../classes/chapitres_display.php:537
+msgid "Margin Top"
+msgstr "Marge Extérieure Haute"
+
+#: ../classes/chapitres_display.php:537
+msgid "Margin Bottom"
+msgstr "Marge Extérieure Basse"
+
+#: ../classes/chapitres_display.php:539
+msgid "Padding Left"
+msgstr "Marge Intérieure Gauche"
+
+#: ../classes/chapitres_display.php:539
+msgid "Padding Right"
+msgstr "Marge Intérieure Droite"
+
+#: ../classes/chapitres_display.php:539
+msgid "Padding Top"
+msgstr "Marge Intérieure Haute"
+
+#: ../classes/chapitres_display.php:539
+msgid "Padding Bottom"
+msgstr "Marge Intérieure Basse"
+
+#: ../classes/chapitres_display.php:541
+msgid "Border Left Width"
+msgstr "Taille Bordure Gauche"
+
+#: ../classes/chapitres_display.php:541
+msgid "Border Right Width"
+msgstr "Taille Bordure Droite"
+
+#: ../classes/chapitres_display.php:541
+msgid "Border Top Width"
+msgstr "Taille Bordure Haute"
+
+#: ../classes/chapitres_display.php:541
+msgid "Border Bottom Width"
+msgstr "Taille Bordure Basse"
+
+#: ../classes/chapitres_display.php:543
+msgid "Border Left Color"
+msgstr "Couleur Bordure Gauche"
+
+#: ../classes/chapitres_display.php:543
+msgid "Border Right Color"
+msgstr "Couleur Bordure Droite"
+
+#: ../classes/chapitres_display.php:543
+msgid "Border Top Color"
+msgstr "Couleur Bordure Haute"
+
+#: ../classes/chapitres_display.php:543
+msgid "Border Bottom Color"
+msgstr "Couleur Bordure Basse"
+
+#: ../classes/chapitres_display.php:545
+msgid "Border Left Style"
+msgstr "Style Bordure Gauche"
+
+#: ../classes/chapitres_display.php:545
+msgid "Border Right Style"
+msgstr "Style Bordure Droite"
+
+#: ../classes/chapitres_display.php:545
+msgid "Border Top Style"
+msgstr "Style Bordure Haute"
+
+#: ../classes/chapitres_display.php:545
+msgid "Border Bottom Style"
+msgstr "Style Bordure Basse"
+
+#: ../classes/chapitres_display.php:549
+msgid "MARGINS"
+msgstr "MARGES EXTERIEURES"
+
+#: ../classes/chapitres_display.php:558
+msgid "PADDINGS"
+msgstr "MARGES INTERIEURES"
+
+#: ../classes/chapitres_display.php:567
+msgid "BORDERS"
+msgstr "BORDURES"
+
+#: ../classes/chapitres_display.php:573
+#: ../classes/chapitres_display.php:584
+#: ../classes/chapitres_display.php:607
+msgid "Hexa Value"
+msgstr "Valeur Hexa"
+
+#: ../classes/chapitres_display.php:582
+msgid "BACKGROUND"
+msgstr "FOND"
+
+#: ../classes/chapitres_display.php:583
+msgid "Background Color"
+msgstr "Couleur de Fond"
+
+#: ../classes/chapitres_display.php:595
+msgid "TEXT"
+msgstr "TEXTE"
+
+#: ../classes/chapitres_display.php:597
+msgid "Size"
+msgstr "Taille"
+
+#: ../classes/chapitres_display.php:599
+msgid "FONT"
+msgstr "POLICE"
+
+#: ../classes/chapitres_display.php:599
+msgid "Standard Fonts"
+msgstr "Polices Standard"
+
+#: ../classes/chapitres_display.php:618
+msgid "LIST STYLES"
+msgstr "STYLES DE LISTE"
+
+#: ../classes/chapitres_database.php:67
+msgid "BOOK"
+msgstr "LIVRE"
+
+#: ../classes/chapitres_database.php:68
+msgid "Default Book"
+msgstr "Livre par défaut"
+

@@ -1,0 +1,789 @@
+/*
+									License:
+ ==============================================================================
+ Copyright 2013 Fabrice SEVERIN  (email : 3m3@3m3.fr) Please find help at http://www.3m3.fr/plugins_wordpress/chapters
+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ 
+*/ 
+@import '//fonts.googleapis.com/css?family=Abel';
+@import '//fonts.googleapis.com/css?family=Aclonica';
+@import '//fonts.googleapis.com/css?family=Actor';
+@import '//fonts.googleapis.com/css?family=Allan:bold';
+@import '//fonts.googleapis.com/css?family=Allerta';
+@import '//fonts.googleapis.com/css?family=Allerta+Stencil';
+@import '//fonts.googleapis.com/css?family=Amaranth:700,400,italic700,italic400';
+@import '//fonts.googleapis.com/css?family=Andika';
+@import '//fonts.googleapis.com/css?family=Angkor';
+@import '//fonts.googleapis.com/css?family=Annie+Use+Your+Telescope';
+@import '//fonts.googleapis.com/css?family=Anonymous+Pro:bold,italicbold,normal,italic';
+@import '//fonts.googleapis.com/css?family=Anton';
+@import '//fonts.googleapis.com/css?family=Architects+Daughter';
+@import '//fonts.googleapis.com/css?family=Arimo:italicbold,bold,normal,italic';
+@import '//fonts.googleapis.com/css?family=Artifika';
+@import '//fonts.googleapis.com/css?family=Arvo:italic,bold,italicbold,normal';
+@import '//fonts.googleapis.com/css?family=Asset';
+@import '//fonts.googleapis.com/css?family=Astloch:normal,bold';
+@import '//fonts.googleapis.com/css?family=Aubrey';
+@import '//fonts.googleapis.com/css?family=Bangers';
+@import '//fonts.googleapis.com/css?family=Battambang:bold,normal';
+@import '//fonts.googleapis.com/css?family=Bayon';
+@import '//fonts.googleapis.com/css?family=Bentham';
+@import '//fonts.googleapis.com/css?family=Bevan';
+@import '//fonts.googleapis.com/css?family=Bigshot+One';
+@import '//fonts.googleapis.com/css?family=Black+Ops+One';
+@import '//fonts.googleapis.com/css?family=Bokor';
+@import '//fonts.googleapis.com/css?family=Bowlby+One';
+@import '//fonts.googleapis.com/css?family=Bowlby+One+SC';
+@import '//fonts.googleapis.com/css?family=Brawler';
+@import '//fonts.googleapis.com/css?family=Buda:300';
+@import '//fonts.googleapis.com/css?family=Cabin:italic600,500,italicbold,italic500,italic400,400,600,bold';
+@import '//fonts.googleapis.com/css?family=Cabin+Sketch:bold';
+@import '//fonts.googleapis.com/css?family=Calligraffitti';
+@import '//fonts.googleapis.com/css?family=Candal';
+@import '//fonts.googleapis.com/css?family=Cantarell:italic,bold,italicbold,normal';
+@import '//fonts.googleapis.com/css?family=Cardo';
+@import '//fonts.googleapis.com/css?family=Carme';
+@import '//fonts.googleapis.com/css?family=Carter+One';
+@import '//fonts.googleapis.com/css?family=Caudex:italic,italic700,400,700';
+@import '//fonts.googleapis.com/css?family=Cedarville+Cursive';
+@import '//fonts.googleapis.com/css?family=Chenla';
+@import '//fonts.googleapis.com/css?family=Cherry+Cream+Soda';
+@import '//fonts.googleapis.com/css?family=Chewy';
+@import '//fonts.googleapis.com/css?family=Coda:800';
+@import '//fonts.googleapis.com/css?family=Coda+Caption:800';
+@import '//fonts.googleapis.com/css?family=Coming+Soon';
+@import '//fonts.googleapis.com/css?family=Content:bold,normal';
+@import '//fonts.googleapis.com/css?family=Copse';
+@import '//fonts.googleapis.com/css?family=Corben:700';
+@import '//fonts.googleapis.com/css?family=Comfortaa';
+@import '//fonts.googleapis.com/css?family=Cousine:italic,normal,italicbold,bold';
+@import '//fonts.googleapis.com/css?family=Covered+By+Your+Grace';
+@import '//fonts.googleapis.com/css?family=Crafty+Girls';
+@import '//fonts.googleapis.com/css?family=Crimson+Text:700,italic400,400,italic600,italic700,600';
+@import '//fonts.googleapis.com/css?family=Crushed';
+@import '//fonts.googleapis.com/css?family=Cuprum';
+@import '//fonts.googleapis.com/css?family=Damion';
+@import '//fonts.googleapis.com/css?family=Dancing+Script:bold,normal';
+@import '//fonts.googleapis.com/css?family=Dangrek';
+@import '//fonts.googleapis.com/css?family=Dawning+of+a+New+Day';
+@import '//fonts.googleapis.com/css?family=Delius:400';
+@import '//fonts.googleapis.com/css?family=Delius+Swash+Caps:400';
+@import '//fonts.googleapis.com/css?family=Delius+Unicase:400';
+@import '//fonts.googleapis.com/css?family=Didact+Gothic';
+@import '//fonts.googleapis.com/css?family=Droid+Arabic+Kufi:bold,normal';
+@import '//fonts.googleapis.com/css?family=Droid+Arabic+Naskh:normal,bold';
+@import '//fonts.googleapis.com/css?family=Droid+Sans:bold,normal';
+@import '//fonts.googleapis.com/css?family=Droid+Sans+Mono';
+@import '//fonts.googleapis.com/css?family=Droid+Sans+Thai:bold,normal';
+@import '//fonts.googleapis.com/css?family=Droid+Serif:bold,normal,italicbold,italic';
+@import '//fonts.googleapis.com/css?family=Droid+Serif+Thai:bold,normal';
+@import '//fonts.googleapis.com/css?family=EB+Garamond';
+@import '//fonts.googleapis.com/css?family=Expletus+Sans:500,italic600,600,italic400,italic700,700,400,italic500';
+@import '//fonts.googleapis.com/css?family=Federo';
+@import '//fonts.googleapis.com/css?family=Fontdiner+Swanky';
+@import '//fonts.googleapis.com/css?family=Forum';
+@import '//fonts.googleapis.com/css?family=Francois+One';
+@import '//fonts.googleapis.com/css?family=Freehand';
+@import '//fonts.googleapis.com/css?family=GFS+Didot';
+@import '//fonts.googleapis.com/css?family=GFS+Neohellenic:italic,italicbold,normal,bold';
+@import '//fonts.googleapis.com/css?family=Gentium+Basic:italicbold,bold,normal,italic';
+@import '//fonts.googleapis.com/css?family=Geo:normal,oblique';
+@import '//fonts.googleapis.com/css?family=Geostar';
+@import '//fonts.googleapis.com/css?family=Geostar+Fill';
+@import '//fonts.googleapis.com/css?family=Give+You+Glory';
+@import '//fonts.googleapis.com/css?family=Gloria+Hallelujah';
+@import '//fonts.googleapis.com/css?family=Goblin+One';
+@import '//fonts.googleapis.com/css?family=Goudy+Bookletter+1911';
+@import '//fonts.googleapis.com/css?family=Gravitas+One';
+@import '//fonts.googleapis.com/css?family=Gruppo';
+@import '//fonts.googleapis.com/css?family=Hammersmith+One';
+@import '//fonts.googleapis.com/css?family=Hanuman:normal,bold';
+@import '//fonts.googleapis.com/css?family=Holtwood+One+SC';
+@import '//fonts.googleapis.com/css?family=Homemade+Apple';
+@import '//fonts.googleapis.com/css?family=IM+Fell+DW+Pica:italic,normal';
+@import '//fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC';
+@import '//fonts.googleapis.com/css?family=IM+Fell+Double+Pica:normal,italic';
+@import '//fonts.googleapis.com/css?family=IM+Fell+Double+Pica+SC';
+@import '//fonts.googleapis.com/css?family=IM+Fell+English:italic,normal';
+@import '//fonts.googleapis.com/css?family=IM+Fell+English+SC';
+@import '//fonts.googleapis.com/css?family=IM+Fell+French+Canon:italic,normal';
+@import '//fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC';
+@import '//fonts.googleapis.com/css?family=IM+Fell+Great+Primer:italic,normal';
+@import '//fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC';
+@import '//fonts.googleapis.com/css?family=Inconsolata';
+@import '//fonts.googleapis.com/css?family=Indie+Flower';
+@import '//fonts.googleapis.com/css?family=Irish+Grover';
+@import '//fonts.googleapis.com/css?family=Irish+Growler';
+@import '//fonts.googleapis.com/css?family=Istok+Web:italic700,400,700,italic400';
+@import '//fonts.googleapis.com/css?family=Josefin+Sans:italic600,italic100,600,italic400,700,italic700,100,italic300,400,300';
+@import '//fonts.googleapis.com/css?family=Josefin+Sans+Std+Light';
+@import '//fonts.googleapis.com/css?family=Josefin+Slab:100,italic600,700,italic400,600,italic100,italic300,300,400,italic700';
+@import '//fonts.googleapis.com/css?family=Judson:700,italic400,400';
+@import '//fonts.googleapis.com/css?family=Jura:400,500,600,300';
+@import '//fonts.googleapis.com/css?family=Just+Another+Hand';
+@import '//fonts.googleapis.com/css?family=Just+Me+Again+Down+Here';
+@import '//fonts.googleapis.com/css?family=Kameron:400,700';
+@import '//fonts.googleapis.com/css?family=Kelly+Slab';
+@import '//fonts.googleapis.com/css?family=Kenia';
+@import '//fonts.googleapis.com/css?family=Khmer';
+@import '//fonts.googleapis.com/css?family=Koulen';
+@import '//fonts.googleapis.com/css?family=Kranky';
+@import '//fonts.googleapis.com/css?family=Kreon:700,400,300';
+@import '//fonts.googleapis.com/css?family=Kristi';
+@import '//fonts.googleapis.com/css?family=La+Belle+Aurore';
+@import '//fonts.googleapis.com/css?family=Lato:italic300,300,900,700,italic100,100,italic700,400,italic900,italic400';
+@import '//fonts.googleapis.com/css?family=League+Script:400';
+@import '//fonts.googleapis.com/css?family=Leckerli+One';
+@import '//fonts.googleapis.com/css?family=Lekton:italic,400,700';
+@import '//fonts.googleapis.com/css?family=Limelight';
+@import '//fonts.googleapis.com/css?family=Lobster';
+@import '//fonts.googleapis.com/css?family=Lobster+Two:italic400,700,400,italic700';
+@import '//fonts.googleapis.com/css?family=Lora:italic,normal,bold,italicbold';
+@import '//fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister';
+@import '//fonts.googleapis.com/css?family=Loved+by+the+King';
+@import '//fonts.googleapis.com/css?family=Luckiest+Guy';
+@import '//fonts.googleapis.com/css?family=Maiden+Orange';
+@import '//fonts.googleapis.com/css?family=Mako';
+@import '//fonts.googleapis.com/css?family=Marvel:400,700,italic700,italic400';
+@import '//fonts.googleapis.com/css?family=Maven+Pro:700,900,500,400';
+@import '//fonts.googleapis.com/css?family=Meddon';
+@import '//fonts.googleapis.com/css?family=MedievalSharp';
+@import '//fonts.googleapis.com/css?family=Megrim';
+@import '//fonts.googleapis.com/css?family=Merriweather:700,900,400,300';
+@import '//fonts.googleapis.com/css?family=Metal';
+@import '//fonts.googleapis.com/css?family=Metrophobic';
+@import '//fonts.googleapis.com/css?family=Miama';
+@import '//fonts.googleapis.com/css?family=Michroma';
+@import '//fonts.googleapis.com/css?family=Miltonian';
+@import '//fonts.googleapis.com/css?family=Miltonian+Tattoo';
+@import '//fonts.googleapis.com/css?family=Modern+Antiqua';
+@import '//fonts.googleapis.com/css?family=Molengo';
+@import '//fonts.googleapis.com/css?family=Monofett';
+@import '//fonts.googleapis.com/css?family=Moul';
+@import '//fonts.googleapis.com/css?family=Moulpali';
+@import '//fonts.googleapis.com/css?family=Mountains+of+Christmas';
+@import '//fonts.googleapis.com/css?family=Muli:italic400,400,italic300,300';
+@import '//fonts.googleapis.com/css?family=Nanum+Brush+Script';
+@import '//fonts.googleapis.com/css?family=Nanum+Gothic:800,700,normal';
+@import '//fonts.googleapis.com/css?family=Nanum+Gothic+Coding:normal,700';
+@import '//fonts.googleapis.com/css?family=Nanum+Myeongjo:700,normal,800';
+@import '//fonts.googleapis.com/css?family=Nanum+Pen+Script';
+@import '//fonts.googleapis.com/css?family=Neucha';
+@import '//fonts.googleapis.com/css?family=Neuton:italic,normal';
+@import '//fonts.googleapis.com/css?family=Neuton+Cursive';
+@import '//fonts.googleapis.com/css?family=News+Cycle';
+@import '//fonts.googleapis.com/css?family=Nixie+One';
+@import '//fonts.googleapis.com/css?family=Nobile:700,italic500,400,italic700,500,italic400';
+@import '//fonts.googleapis.com/css?family=Nothing+You+Could+Do';
+@import '//fonts.googleapis.com/css?family=Nova+Cut';
+@import '//fonts.googleapis.com/css?family=Nova+Flat';
+@import '//fonts.googleapis.com/css?family=Nova+Mono';
+@import '//fonts.googleapis.com/css?family=Nova+Oval';
+@import '//fonts.googleapis.com/css?family=Nova+Round';
+@import '//fonts.googleapis.com/css?family=Nova+Script';
+@import '//fonts.googleapis.com/css?family=Nova+Slim';
+@import '//fonts.googleapis.com/css?family=Nova+Square';
+@import '//fonts.googleapis.com/css?family=Nunito:700,300,400';
+@import '//fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT:italic,normal';
+@import '//fonts.googleapis.com/css?family=Odor+Mean+Chey';
+@import '//fonts.googleapis.com/css?family=Old+Standard+TT:italic,bold,normal';
+@import '//fonts.googleapis.com/css?family=Open+Sans:italic300,italic800,600,300,italic400,italic600,italic700,700,800,400';
+@import '//fonts.googleapis.com/css?family=Open+Sans+Condensed:italic300,300';
+@import '//fonts.googleapis.com/css?family=Orbitron:500,900,400,700';
+@import '//fonts.googleapis.com/css?family=Oswald';
+@import '//fonts.googleapis.com/css?family=Over+the+Rainbow';
+@import '//fonts.googleapis.com/css?family=Ovo';
+@import '//fonts.googleapis.com/css?family=PT+Sans:italic,bold,normal,italicbold';
+@import '//fonts.googleapis.com/css?family=PT+Sans+Caption:normal,bold';
+@import '//fonts.googleapis.com/css?family=PT+Sans+Narrow:normal,bold';
+@import '//fonts.googleapis.com/css?family=PT+Serif:italic,normal,bold,italicbold';
+@import '//fonts.googleapis.com/css?family=PT+Serif+Caption:normal,italic';
+@import '//fonts.googleapis.com/css?family=Pacifico';
+@import '//fonts.googleapis.com/css?family=Patrick+Hand';
+@import '//fonts.googleapis.com/css?family=Paytone+One';
+@import '//fonts.googleapis.com/css?family=Pecita';
+@import '//fonts.googleapis.com/css?family=Permanent+Marker';
+@import '//fonts.googleapis.com/css?family=Philosopher:bold,normal,italic,italicbold';
+@import '//fonts.googleapis.com/css?family=Play:bold,normal';
+@import '//fonts.googleapis.com/css?family=Playfair+Display';
+@import '//fonts.googleapis.com/css?family=Podkova';
+@import '//fonts.googleapis.com/css?family=Pompiere';
+@import '//fonts.googleapis.com/css?family=Preahvihear';
+@import '//fonts.googleapis.com/css?family=Puritan:bold,italic,italicbold,normal';
+@import '//fonts.googleapis.com/css?family=Quattrocento';
+@import '//fonts.googleapis.com/css?family=Quattrocento+Sans';
+@import '//fonts.googleapis.com/css?family=Radley';
+@import '//fonts.googleapis.com/css?family=Raleway:100';
+@import '//fonts.googleapis.com/css?family=Rationale';
+@import '//fonts.googleapis.com/css?family=Redressed';
+@import '//fonts.googleapis.com/css?family=Reenie+Beanie';
+@import '//fonts.googleapis.com/css?family=Rochester';
+@import '//fonts.googleapis.com/css?family=Rock+Salt';
+@import '//fonts.googleapis.com/css?family=Rokkitt:700,400';
+@import '//fonts.googleapis.com/css?family=Rosario';
+@import '//fonts.googleapis.com/css?family=Ruslan+Display';
+@import '//fonts.googleapis.com/css?family=Schoolbell';
+@import '//fonts.googleapis.com/css?family=Shadows+Into+Light';
+@import '//fonts.googleapis.com/css?family=Shanti';
+@import '//fonts.googleapis.com/css?family=Siamreap';
+@import '//fonts.googleapis.com/css?family=Siemreap';
+@import '//fonts.googleapis.com/css?family=Sigmar+One';
+@import '//fonts.googleapis.com/css?family=Six+Caps';
+@import '//fonts.googleapis.com/css?family=Slackey';
+@import '//fonts.googleapis.com/css?family=Smokum';
+@import '//fonts.googleapis.com/css?family=Smythe';
+@import '//fonts.googleapis.com/css?family=Sniglet:800';
+@import '//fonts.googleapis.com/css?family=Snippet';
+@import '//fonts.googleapis.com/css?family=Special+Elite';
+@import '//fonts.googleapis.com/css?family=Stardos+Stencil:normal,bold';
+@import '//fonts.googleapis.com/css?family=Sue+Ellen+Francisco';
+@import '//fonts.googleapis.com/css?family=Sunshiney';
+@import '//fonts.googleapis.com/css?family=Suwannaphum';
+@import '//fonts.googleapis.com/css?family=Swanky+and+Moo+Moo';
+@import '//fonts.googleapis.com/css?family=Syncopate:normal,bold';
+@import '//fonts.googleapis.com/css?family=Tangerine:normal,bold';
+@import '//fonts.googleapis.com/css?family=Taprom';
+@import '//fonts.googleapis.com/css?family=Tenor+Sans';
+@import '//fonts.googleapis.com/css?family=Terminal+Dosis+Light';
+@import '//fonts.googleapis.com/css?family=Thabit:italic,italicbold,normal,bold';
+@import '//fonts.googleapis.com/css?family=The+Girl+Next+Door';
+@import '//fonts.googleapis.com/css?family=Tienne:400,900,700';
+@import '//fonts.googleapis.com/css?family=Tinos:italicbold,normal,italic,bold';
+@import '//fonts.googleapis.com/css?family=Tulpen+One';
+@import '//fonts.googleapis.com/css?family=Ubuntu:bold,300,normal,italicbold,italic,italic500,500,italic300';
+@import '//fonts.googleapis.com/css?family=Ultra';
+@import '//fonts.googleapis.com/css?family=UnifrakturCook:bold';
+@import '//fonts.googleapis.com/css?family=UnifrakturMaguntia';
+@import '//fonts.googleapis.com/css?family=Unkempt';
+@import '//fonts.googleapis.com/css?family=Unna';
+@import '//fonts.googleapis.com/css?family=VT323';
+@import '//fonts.googleapis.com/css?family=Varela';
+@import '//fonts.googleapis.com/css?family=Varela+Round';
+@import '//fonts.googleapis.com/css?family=Vibur';
+@import '//fonts.googleapis.com/css?family=Vollkorn:bold,italic,italicbold,normal';
+@import '//fonts.googleapis.com/css?family=Waiting+for+the+Sunrise';
+@import '//fonts.googleapis.com/css?family=Wallpoet';
+@import '//fonts.googleapis.com/css?family=Walter+Turncoat';
+@import '//fonts.googleapis.com/css?family=Wire+One';
+@import '//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700,200,400,300';
+@import '//fonts.googleapis.com/css?family=Yellowtail';
+@import '//fonts.googleapis.com/css?family=Yeseva+One';
+@import '//fonts.googleapis.com/css?family=Zeyada';
+.bouton_rouge
+{
+	background-color: #FF7979;
+    background-image: linear-gradient(to bottom, #FF5F5F, #FF7979);
+    border-color: #FF7979;
+    box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	-moz-box-sizing: border-box;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    height: 24px;
+    line-height: 23px;
+    margin: 0;
+    padding: 0 10px 1px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.bouton_rouge:hover
+{
+	border-color:#FF5F5F;
+	background-image: linear-gradient(to bottom, #FF7979,#FF5F5F);
+}
+.bouton_vert
+{
+	background-color: #85f186; 
+    background-image: linear-gradient(to bottom, #5cab34, #85f186);
+    border-color: #5cab34;
+    box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	-moz-box-sizing: border-box;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    height: 24px;
+    line-height: 23px;
+    margin: 0;
+    padding: 0 10px 1px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.bouton_vert:hover
+{
+	border-color:#85f186;
+	background-image: linear-gradient(to bottom, #85f186,#5cab34);
+}
+.droite
+{
+	float:right;
+}
+.gauche
+{
+	float:left;
+}
+.onglet_livre,.onglet_chapitre,.onglet_sommaire
+{
+	clear:both;
+}
+.fond_gris
+{
+	margin:5px;
+	background: none repeat scroll 0 0 #E1E1E1;
+}
+.bord_gris
+{
+	border:2px solid #E1E1E1;
+	margin:5px;
+	margin-bottom:15px;
+	padding:10px;
+}
+.gros_titres
+{
+	margin-left:20px;
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+.gros_titre_bleu
+{
+	color:#2A95C5;
+}
+.gros_titre_vert
+{
+	color:#5CAB34;
+	text-align:center;
+	text-shadow: 0 1px 0 #85f186;
+}
+.gros_titre_rouge
+{
+	color:#FF5F5F;
+	text-align:center;
+	text-shadow: 0 1px 0 #FF7979;
+}
+label
+{
+	color:#21759B;
+}
+.tab a
+{
+	color:#21759B;
+}
+.rouge
+{
+	color:#FF5F5F;
+}
+.apercu
+{
+	font-weight:bold;
+	font-size:16px;
+	font-style:italic;
+	text-align:center;
+}
+.commentaire
+{
+	font-size:9px;
+}
+/***** FENETRES MODALES / MODAL WINDOWS *****/
+.fenetre_modale
+{
+	display: none;
+	text-transform:uppercase;
+	background: #ffffff;
+	padding: 20px;
+	border: 10px solid #dddddd;
+	float: left;
+	font-family: Arial;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	text-align:center;
+	box-shadow: 0px 0px 20px #000;
+	border-radius: 10px;
+}
+.fenetre_modale p
+{
+	font-size:12px;
+}
+#confirmer_suppression
+{
+	width:14px; 
+	text-align:center;
+}
+#annuler_suppression
+{
+	width:50px; 
+	text-align: center;
+}
+.boutongris
+{
+	-moz-box-shadow:inset 0px 1px 1px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 1px 0px #ffffff;
+	box-shadow:inset 0px 1px 1px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dddddd;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+	padding:5px 14px;
+	cursor:pointer;
+}
+.fond_opaque
+{ 
+	display: none;
+	background: #000;
+	position: fixed; left: 0; top: 0;
+	width: 100%; height: 100%;
+	opacity: .80;
+	z-index: 9999;
+}
+#message
+{
+	float:right;
+	display:none;
+	color: #2A95C5;
+}
+/***** css du spinner pour les précédentes versions *****/
+/***** spinner css for previous versions: *****/
+.spinner {
+    display: none;
+    vertical-align: middle;
+    background: url("images/spinner.gif") no-repeat scroll 0 0 / 16px 16px transparent;
+    display: none;
+    float: right;
+    height: 16px;
+    margin: 5px 5px 0;
+    opacity: 0.7;
+    width: 16px;
+}
+.disabled
+{
+	color: #AAAAAA;
+}
+/***** gestion des styles *****/
+/***** styles management: *****/
+.gerer_styles
+{
+	text-shadow: 0 1px 0 #FFFFFF;
+	color:black;
+	font-size:9px;
+	margin-left:80px;
+}
+.image_styles
+{
+	margin-left:10px;
+	border-radius: 50px;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+	cursor:pointer;
+	vertical-align:middle;
+} 
+.fenetre_styles
+{
+	display:none;
+	background: #ffffff;
+	padding: 20px;
+	border: 10px solid #dddddd;
+	float: left;
+	font-family: Arial;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	text-align:center;
+	box-shadow: 0px 0px 20px #000;
+	border-radius: 10px;
+}
+.fenetre_styles p
+{
+	font-size:12px;
+}
+.formulaire_styles
+{
+	transition-duration: 0.2s;
+    transition-property: left, right, top, bottom, width, margin;
+	-moz-box-sizing: border-box;
+    background: none repeat scroll 0 0 #F5F5F5;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    z-index: 10;
+}
+.formulaire_styles:after 
+{
+    bottom: 0;
+    box-shadow: -5px 0 4px -4px rgba(0, 0, 0, 0.1) inset;
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 3px;
+    z-index: 1000;
+}
+.formulaire_styles .button-primary {
+    float: right;
+    margin-top: 10px;
+	background: none repeat scroll 0 0 #298CBA !important;
+    border-color: #1B607F !important;
+    box-shadow: none !important;
+    color: #94CDE7 !important;
+    cursor: default;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1) !important;
+	
+}
+.chargement
+{
+	background: url("images/chargement.gif");
+	height:160px;
+	width:160px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:170px;
+}
+.selecteur_css
+{
+	font-style:italic;
+	font-size:9px;
+	font-family:Arial;
+	text-shadow:0 1px 0 #333333;
+	color:#CCCCCC;
+}
+.selectionner_puces_listes option
+{
+	box-shadow: 0 1px 0 0 #FFFFFF;
+	border-bottom: 1px solid #DFDFDF;
+    border-top: 1px solid #FFFFFF;
+	font-size:9px;
+	width:100px;
+	background: linear-gradient(to top, #EEEEEE, #F5F5F5) repeat scroll 0 0 #F5F5F5;
+}
+.plus_moins
+{
+	display:block;
+	border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 2px 2px 0px 2px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size:20px;
+   font-weight:bold;
+   vertical-align: middle;
+   font-family:Courier;
+   width:20px;
+   line-height:20px;
+	height:20px;
+	cursor: pointer;
+	border-radius: 50px;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.maquette
+{
+	color:black;
+	font-size:10px;
+	background-color:white;
+	padding:0px 5px 5px 5px;
+	border:1px dotted black;
+	text-align:left;
+	font-family:Cabin Sketch;
+	text-transform:uppercase;
+}
+.entete_section:hover
+{
+	background: linear-gradient(to top, #6D6D6D, #808080) repeat scroll 0 0 #808080;
+    border: 1px solid #808080;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 #333333;
+}
+#titre_schema
+{
+	font-family:Cabin Sketch;
+	text-transform:uppercase;
+	width:50%;
+	margin:auto;
+}
+#titre_partie_sommaire
+{
+	font-size:24px;
+	font-family:Caudex;
+	text-transform:uppercase;
+	text-align:center;
+	width:50%;
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#chapitres_conteneur_sommaire
+{
+	width:50%;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+#conteneur_id_ou_classe
+{
+	margin:0px;
+	margin-top:10px;
+}
+#choisir_sauvegarde
+{
+	display:none;
+}
+#conteneur_schema
+{
+	background:url(images/bg.png);
+	padding-top:20px;
+	padding-bottom:10px;
+	border-bottom:1px grey dashed;
+}
+/************ rétrocompatibilité: ***********/
+.accordion-section-title
+{
+	font-size:12px;
+	font-weight:normal;
+}
+.wp-full-overlay-sidebar:after {
+    bottom: 0;
+    box-shadow: -5px 0 4px -4px rgba(0, 0, 0, 0.1) inset;
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 3px;
+    z-index: 1000;
+}
+.wp-full-overlay, .wp-full-overlay-sidebar, .wp-full-overlay .collapse-sidebar, .wp-full-overlay-main {
+    transition-duration: 0.2s;
+    transition-property: left, right, top, bottom, width, margin;
+}
+.wp-full-overlay-sidebar {
+    -moz-box-sizing: border-box;
+    background: none repeat scroll 0 0 #F5F5F5;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 300px;
+    z-index: 10;
+}
+.wp-full-overlay-sidebar .wp-full-overlay-header {
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 0 none;
+    box-shadow: 0 -1px 0 0 #DFDFDF inset;
+}
+.wp-full-overlay-sidebar .wp-full-overlay-header {
+    height: 45px;
+    left: 0;
+    line-height: 45px;
+    margin: 0;
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+.wp-full-overlay-sidebar .wp-full-overlay-sidebar-content {
+    bottom: 45px;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    top: 85px;
+}
+.wp-full-overlay-main {
+    bottom: 0;
+    height: 100%;
+    left: 300px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.wp-full-overlay-sidebar .wp-full-overlay-header a.back {
+    margin-top: 0px;
+}
+span.styles-type {
+	font-weight:normal;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #797979;
+	padding-left: 6px;
+}
+
+/* Styles_Customize_Text_Control */
+
+#customize-preview{
+overflow:auto;
+}
+#customize-controls input.styles-font-size {
+	width: 32px;
+}
+.styles-font-family option {
+	text-indent: 10px;
+}
+.styles-font-family option.label {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: #666;
+	font-style: normal;
+	font-weight: normal;
+	text-indent: 0;
+	margin-top: 10px;
+}
+.styles-font-family option.first {
+	margin-top: 0;
+}
